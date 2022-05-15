@@ -1,0 +1,69 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+
+	& {
+		touch-action: manipulation;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-touch-callout: none;
+		-webkit-user-drag: none;
+	}
+
+	&, &:before, &:after {
+		box-sizing: border-box;
+	}
+}
+
+body {
+	color: #222;
+	background: #FFFFFF;
+	font-size: 16px;
+	line-height: 1;
+	font-family: system-ui, -apple-system, Segoe UI, Microsoft YaHei, Arial, sans-serif, Helvetica, STHeiti Light, STHeiti;
+	text-rendering: optimizeLegibility;
+	backface-visibility: hidden;
+	text-size-adjust: none;
+	word-wrap: break-word;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-ms-content-zooming: none;
+}
+
+audio {
+	display: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+img {
+	vertical-align: middle;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+
+textarea {
+	resize: none;
+}
+
+button, select, input, textarea {
+	cursor: pointer;
+	font: inherit;
+	background: none;
+	appearance: none;
+	vertical-align: middle;
+
+	&:active {
+		filter: brightness(0.9);
+	}
+}
